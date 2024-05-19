@@ -4,6 +4,10 @@ plugins {
 }
 
 android {
+    buildFeatures {
+        viewBinding = true
+    }
+
     namespace = "com.my.muhammadaliftajudin.pizzaapp"
     compileSdk = 34
 
